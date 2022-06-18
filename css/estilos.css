@@ -194,6 +194,11 @@ section hr {
     
 }
 
+section h3 {
+    margin-left: 12.5%;
+}
+
+
 .subtitulo {
     color: aqua;
 }
@@ -342,6 +347,7 @@ footer {
 .container {
     width: 100%;
     max-width: 400px;
+    margin-left: 10%;
 }
 
 .maps {
@@ -353,6 +359,9 @@ footer {
     font-size: 30px;
     margin-bottom: 10px;
     color: aqua;
+}
+.con{
+    margin-left: 12.5%;
 }
 
 #contact input[type="text"],
