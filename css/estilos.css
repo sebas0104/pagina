@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +26,7 @@ body {
     height: 100%;
     background: #222;
     color: #FFF;
-    position: fixed; 
+    position: fixed;
     z-index: 100;
 }
 
@@ -53,7 +52,7 @@ main {
     margin-left: 120px;
 }
 
- h1 {
+h1 {
     font-family: Amalfi Coast;
     font-size: 50px;
     font-weight: 400;
@@ -64,102 +63,116 @@ main {
 header img {
     max-width: 100%;
     height: auto;
+    margin-left: 38%;
 
 }
 
 /*---------------------MAIN FIGURE---------------------*/
 
-    
-    figure.helados {
-        font-family: 'Raleway', Arial, sans-serif;
-        display: inline-block;
-        color: #fff;
-        position: relative;
-        overflow: hidden;
-        margin: 10px;
-        min-width: 200px;
-        max-width: 300px;
-        max-height: 220px;
-        width: 100%;
-        background: #000000;
-        text-align: center;
-    }
-    figure.helados * {
-        box-sizing: border-box;
-    }
-    figure.helados img {
-        opacity: 1;
-        width: 100%;
-        transition: opacity 0.35s;
-    }
-    figure.helados figcaption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 3em 3em;
-        width: 100%;
-        height: 100%;
-    }
-    figure.helados figcaption::before {
-        top: 50%;
-        right: 30px;
-        bottom: 50%;
-        left: 30px;
-        border-top: 1px solid rgba(255, 255, 255, 0.8);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-        content: '';
-        opacity: 0;
-        background-color: #ffffff;
-        transition: all 0.4s;
-        transition-delay: 0.6s;
-    }
-    figure.helados h2,
-    figure.helados p {
-        margin-top: 5px;
-        opacity: 0;
-        transition: opacity 0.35s;
-    }
-    figure.helados h2 {
-        margin-top: -30px;
-        word-spacing: -0.15em;
-        font-weight: 300;
-        text-transform: uppercase;
-        transition-delay: 0.3s;
-    }
-    figure.helados h2 span {
-        font-weight: 800;
-    }
-    figure.helados p {
-        font-weight: 200	;
-        transition-delay: 0s;
-    }
-    figure.helados a {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        color: #ffffff;
-    }
-    figure.helados:hover img {
-        opacity: 0.35;
-    }
-    figure.helados:hover figcaption h2 {
-        opacity: 1;
-        transform: translate3d(0%, 0%, 0);
-        transition-delay: 0.3s;
-    }
-    figure.helados:hover figcaption p {
-        opacity: 0.9;
-        transition-delay: 0.6s;
-    }
-    figure.helados:hover figcaption::before {
-        background: rgba(255, 255, 255, 0);
-        top: 30px;
-        bottom: 30px;
-        opacity: 1;
-        transition-delay: 0s;
-    }
+
+figure.desarrollos {
+    font-family: 'Raleway', Arial, sans-serif;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 300px;
+    max-height: 220px;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+}
+
+figure.desarrollos * {
+    box-sizing: border-box;
+}
+
+figure.desarrollos img {
+    opacity: 1;
+    width: 100%;
+    transition: opacity 0.35s;
+}
+
+figure.desarrollos figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3em 3em;
+    width: 100%;
+    height: 100%;
+}
+
+figure.desarrollos figcaption::before {
+    top: 50%;
+    right: 30px;
+    bottom: 50%;
+    left: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    content: '';
+    opacity: 0;
+    background-color: #ffffff;
+    transition: all 0.4s;
+    transition-delay: 0.6s;
+}
+
+figure.desarrollos h2,
+figure.desarrollos p {
+    margin-top: 5px;
+    opacity: 0;
+    transition: opacity 0.35s;
+}
+
+figure.desarrollos h2 {
+    margin-top: -30px;
+    word-spacing: -0.15em;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition-delay: 0.3s;
+}
+
+figure.desarrollos h2 span {
+    font-weight: 800;
+}
+
+figure.desarrollos p {
+    font-weight: 200;
+    transition-delay: 0s;
+}
+
+figure.desarrollos a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: #ffffff;
+}
+
+figure.desarrollos:hover img {
+    opacity: 0.35;
+}
+
+figure.desarrollos:hover figcaption h2 {
+    opacity: 1;
+    transform: translate3d(0%, 0%, 0);
+    transition-delay: 0.3s;
+}
+
+figure.desarrollos:hover figcaption p {
+    opacity: 0.9;
+    transition-delay: 0.6s;
+}
+
+figure.desarrollos:hover figcaption::before {
+    background: rgba(255, 255, 255, 0);
+    top: 30px;
+    bottom: 30px;
+    opacity: 1;
+    transition-delay: 0s;
+}
 
 
 video {
@@ -171,7 +184,7 @@ video {
 
 section {
     margin-left: 100px;
-    max-width: 980px;  
+    max-width: 980px;
 }
 
 section h2 {
@@ -191,7 +204,7 @@ section hr {
     border-top: 1px solid #eee;
     margin: 20px 0;
     height: 0;
-    
+
 }
 
 section h3 {
@@ -246,9 +259,9 @@ section h3 {
     filter: grayscale(100%);
 }
 
-.persona a:hover > img {
+.persona a:hover>img {
     filter: opacity(100%);
-    
+
 }
 
 .section {
@@ -275,14 +288,14 @@ section h3 {
 
 form {
     padding: 8px;
-    overflow: hidden;  
+    overflow: hidden;
     border: none;
     border-bottom: 1px solid #CCC;
 }
 
 input {
     padding-top: 16px;
-    padding-bottom: 16px;  
+    padding-bottom: 16px;
     width: 100%;
 }
 
@@ -291,14 +304,14 @@ footer {
 }
 
 .conector-social {
-	width: 100%;
-	display: block;
-	margin: 0px 10px;
-	text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0px 10px;
+    text-align: center;
 }
 
 .conector-social h4 {
-	margin-top: 45px;
+    margin-top: 45px;
     margin-bottom: 20px;
 }
 
@@ -316,32 +329,36 @@ footer {
     line-height: 2.4em;
     border-radius: 50%;
     text-align: center;
-	margin-bottom: 20px;
-} 
+    margin-bottom: 20px;
+}
+
 .conector-social ul li a:hover {
     color: #ff5722;
     border-color: #ff5722;
 }
 
 .copyright {
-	text-align: center;
-	padding: 30px 0;
-	border-top: 1px solid #EEE;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #EEE;
 }
+
 .copyright p {
-	color: #222;
-	font-weight: 300;
-	font-size: 13px;
-	line-height: 25px;
-	
+    color: #222;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+
 }
+
 .copyright a {
-	color: #FFF;
-	text-decoration: none;
+    color: #FFF;
+    text-decoration: none;
 }
+
 .copyright a:hover {
-	color: #bdd001;
-	text-decoration: underline;
+    color: #bdd001;
+    text-decoration: underline;
 }
 
 .container {
@@ -360,7 +377,8 @@ footer {
     margin-bottom: 10px;
     color: aqua;
 }
-.con{
+
+.con {
     margin-left: 12.5%;
 }
 
@@ -368,70 +386,70 @@ footer {
 #contact input[type="email"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-  padding: 5px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 
 fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
 }
 
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
 #contact textarea:hover {
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
 }
 
 #contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
+    height: 100px;
+    max-width: 100%;
+    resize: none;
 }
 
 #contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #00C6B1;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #00C6B1;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-  background: #04EAD1;
-  transition: background-color 0.3s ease-in-out;
+    background: #04EAD1;
+    transition: background-color 0.3s ease-in-out;
 }
 
 #contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-#contact input:focus, 
+#contact input:focus,
 #contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
+    outline: 0;
+    border: 1px solid #aaa;
 }
 
 
@@ -440,11 +458,11 @@ fieldset {
     body {
         font-size: 12px;
     }
-    
+
     header h1 {
         padding-top: 50px;
     }
-    
+
     .contenedor-nav {
         display: flex;
         flex: wrap;
@@ -454,77 +472,78 @@ fieldset {
         height: 60px;
         opacity: 0.7;
     }
- 
+
     .contenedor-nav a {
         display: inline-block;
     }
-    
+
     .contenedor-nav img {
         display: none;
         position: relative;
     }
-    
+
     .contenedor-nav a:hover {
         background: #000;
     }
-    
+
     main {
         margin: auto;
     }
-    
+
     section {
         width: 100%;
         max-width: 500px;
         margin: auto 40px;
     }
-      
+
     .persona a {
         display: block;
         margin: 10px auto;
     }
-    
+
     .section {
         font-size: 15px;
     }
-    
+
     .section p {
         max-width: 300px;
     }
-    
+
     .name {
         max-width: 300px;
         margin-bottom: none;
     }
-    
+
     .borde {
         display: none;
-}
-    
+    }
+
     footer {
         margin: auto;
     }
 }
 
 @media screen and (max-width:360px) {
-    
+
     main {
         padding: 10px;
     }
-    
+
     section {
         padding: 3px;
     }
+
     .section {
-        
+
         font-size: 15px;
     }
-    
+
     .section p {
         margin-right: 400px;
         max-width: 250px;
-        
+
     }
-    
+
     .name {
         max-width: 200px;
         margin-bottom: none;
