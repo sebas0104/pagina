@@ -128,17 +128,26 @@
         <h3>Contactanos</h3>
         <hr class="con">
         <div class="container">
-            <form id="contact" action="" method="post">
-                <fieldset>
-                    <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Email" type="email" tabindex="2" required>
-                </fieldset>
-                <fieldset>
-                    <textarea placeholder="Escribir mensaje...." tabindex="5" required></textarea>
-                </fieldset>
-                <fieldset>
+            <form id="contact" onsubmit="registrar()">
+                <table>
+                <tr>
+                    
+                    <td><input placeholder="Nombre" name="txtnombre">
+                   </td>
+                </tr>
+                <tr>
+                   
+                    <td><input  placeholder="Cel"name="txtcel">
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td><input  placeholder="Email" name="txtemail">
+                    </td>
+                </tr>
+                
+            </table>
+           
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
                 </fieldset>
             </form>
@@ -159,11 +168,11 @@
             </ul>
         </div>
         <div class="copyright">
-            <p>© Copyright 2022. Todos los derechos reservados | Diseño por masterDevlopers.</p>
+            <p>© Copyright 2022. Todos los derechos reservados | Diseño por masterDevloper.</p>
         </div>
     </footer>
     </div>
 
 </body>
-
 </html>
+<script src="JS/index.js"></script>
