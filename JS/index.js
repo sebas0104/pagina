@@ -1,3 +1,4 @@
+
 function registrar(){
 	var nombre=document.forms["contact"].txtnombre.value;
 	patron=/^\s*$/;
