@@ -1,4 +1,12 @@
+function cargar (){
+	const sonidos = document.getElementById('sonido');
+document.addEventListener('keydown',function(evemto){
+	if (evemto.keyCode == 32) {
+		sonidos.innerHTML = '<audio src="audio/BelowCream.mp3"autoplay></audio>';
+	}
+})
 
+}
 function registrar(){
 	var nombre=document.forms["contact"].txtnombre.value;
 	patron=/^\s*$/;
